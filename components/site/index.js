@@ -7,9 +7,9 @@ import './site.css'
 
 const Site =
   ({ children }) => (
-    <div>
+    <>
       {children}
-    </div>
+    </>
   )
 
 export default Site
