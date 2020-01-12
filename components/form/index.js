@@ -1,5 +1,5 @@
 import React from 'react'
-import useForm, { FormContext } from 'react-hook-form'
+import { FormContext, useForm } from 'react-hook-form'
 
 import noop from '../../util/noop'
 
