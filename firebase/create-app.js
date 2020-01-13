@@ -75,7 +75,9 @@ const createApp =
         queries.map (query => store.firestore.get (query))
       ).then (() => store.getState ())
 
-    return { App, preload, store }
+    const firestore = store.firestore
+
+    return { App, preload, store, firebase, firestore }
   }
 
 export default createApp
