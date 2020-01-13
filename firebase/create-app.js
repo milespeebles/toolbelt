@@ -77,7 +77,7 @@ const createApp =
 
     const firestore = store.firestore
 
-    return { App, preload, store, firebase, firestore }
+    return { App, preload, store }
   }
 
 export default createApp

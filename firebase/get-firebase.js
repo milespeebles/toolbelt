@@ -1,5 +1,6 @@
 import getConfig from 'next/config'
 import * as fb from 'firebase'
+import 'firebase/admin'
 import 'firebase/analytics'
 import 'firebase/auth'
 import 'firebase/firestore'
